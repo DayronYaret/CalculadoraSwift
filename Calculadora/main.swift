@@ -9,4 +9,9 @@
 import Foundation
 
 print("Hello, World!")
+var vista = CalculadoraVista()
+var modelo = CalculadoraModelo()
+var controlador = CalculadoraControlador(modelo: modelo, vista: vista)
+controlador.realizarOperacion()
+
 

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FBBC59E8237190C500DD5DFB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBC59E7237190C500DD5DFB /* main.swift */; };
+		FBBC59F22371914000DD5DFB /* CalculadoraModelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBC59F12371914000DD5DFB /* CalculadoraModelo.swift */; };
+		FBBC59F42371920200DD5DFB /* CalculadoraVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBC59F32371920200DD5DFB /* CalculadoraVista.swift */; };
+		FBBC59F6237193BB00DD5DFB /* CalculadoraControlador.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBC59F5237193BB00DD5DFB /* CalculadoraControlador.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		FBBC59E4237190C500DD5DFB /* Calculadora */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculadora; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBC59E7237190C500DD5DFB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FBBC59F12371914000DD5DFB /* CalculadoraModelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraModelo.swift; sourceTree = "<group>"; };
+		FBBC59F32371920200DD5DFB /* CalculadoraVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraVista.swift; sourceTree = "<group>"; };
+		FBBC59F5237193BB00DD5DFB /* CalculadoraControlador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraControlador.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,36 @@
 		FBBC59E6237190C500DD5DFB /* Calculadora */ = {
 			isa = PBXGroup;
 			children = (
+				FBBC59F02371911500DD5DFB /* Controlador */,
+				FBBC59EF2371910700DD5DFB /* Vista */,
+				FBBC59EE237190EA00DD5DFB /* Modelo */,
 				FBBC59E7237190C500DD5DFB /* main.swift */,
 			);
 			path = Calculadora;
+			sourceTree = "<group>";
+		};
+		FBBC59EE237190EA00DD5DFB /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				FBBC59F12371914000DD5DFB /* CalculadoraModelo.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		FBBC59EF2371910700DD5DFB /* Vista */ = {
+			isa = PBXGroup;
+			children = (
+				FBBC59F32371920200DD5DFB /* CalculadoraVista.swift */,
+			);
+			path = Vista;
+			sourceTree = "<group>";
+		};
+		FBBC59F02371911500DD5DFB /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				FBBC59F5237193BB00DD5DFB /* CalculadoraControlador.swift */,
+			);
+			path = Controlador;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBBC59E8237190C500DD5DFB /* main.swift in Sources */,
+				FBBC59F6237193BB00DD5DFB /* CalculadoraControlador.swift in Sources */,
+				FBBC59F22371914000DD5DFB /* CalculadoraModelo.swift in Sources */,
+				FBBC59F42371920200DD5DFB /* CalculadoraVista.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
